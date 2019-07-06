@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "chromedriver": "^2.46.0"
   }

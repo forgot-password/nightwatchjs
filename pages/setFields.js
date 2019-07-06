@@ -1,16 +1,15 @@
 var commands = {
-    login: function(email, password) {
+    set: function(email, password) {
         return this.waitForElementVisible('@email')
                    .setValue('@email', email)
-                   .setValue('@password', password)
-                   .click('@submit');
+                   .setValue('@password', password);
     }
 }
+
 module.exports = {
     commands: [commands],
     elements: {
         email: '#email',
         password: '#passwd',
-        submit: '#SubmitLogin'
     }
 };
