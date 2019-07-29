@@ -5,9 +5,9 @@
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="1" time="5.947" timestamp="">
+    tests="1" time="5.531" timestamp="">
   
-    <testcase name="Test REST call" classname="login" time="5.947" assertions="3">
+    <testcase name="Log into account" classname="login" time="5.531" assertions="3">
 
     
 
