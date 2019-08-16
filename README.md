@@ -22,7 +22,6 @@ To create `launch.json` file:
                         "pat/to/test/test.js",
                         "--testcase 'Test case name'"
                     ],
-            "env": {"TEST_ENV":"stage"},
             "skipFiles": [
                 "${workspaceFolder}/node_modules/nightwatch/**/*.js",
     "${workspaceFolder}/node_modules/assertion-error/**/*.js",
