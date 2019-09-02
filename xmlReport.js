@@ -44,7 +44,7 @@ const writeFile = data => {
 /**
  * @module buildXmlReport
  * Nightwatch creates a separate XML results file for every test file
- * Results are created into /sipui/reports/results/
+ * Results are created into /reports/results/
  * This module takes the results from all .xml files
  * and creates a single results file, /reports/results/results.xml
  */
